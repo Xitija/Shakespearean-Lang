@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Playfair+Display&display=swap');
+
+body {
+    background-color: #fdb169;
+    font-family: 'Modern Antiqua', cursive;
+    margin: 0px;
+}
+
+.hero {
+    background-color: sienna;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 12%;
+    background-color: burlywood;
+     /* vertical-align: top; Similar to wrap text */
+    /*  float: right;  positioning */
+    border: 0.5rem solid saddlebrown;
+    float: left;
+    margin-right: 2rem;
+}
+
+  .hero .hero-heading {
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    color: var(--dark-gray);
+    text-align: center;
+    vertical-align: top;
+    font-size: 2.5rem;
+    background-color: burlywood;
+  }
+
+  .area1 {
+    margin: auto;
+    padding: 1rem;
+    max-width: 800px;
+    align-items: center;
+   }
+
+  textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border: 2px solid black;
+    font-size: larger;
+    margin-top: 2rem;
+  }
+
+  .btn-translate {
+    background-color: #4b6375;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #4b6375;
+    color: beige;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .btn-translate:hover {
+    background-color:  #162938;
+    color: #f1f1f1;
+  }
+
+  .btn-clear {
+    background-color: #7b8c99;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #4b6375;
+    color: beige;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .btn-clear:hover {
+    background-color: #555;
+  }
+
+  .container-center{
+    max-width: 100%; 
+    margin: auto;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: larger;
+  }
+
+  #output:empty:before {
+    content:attr(data-placeholder);
+    color:gray;
+  }
+
+  .footer {
+    background-color: sienna;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
