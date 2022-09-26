@@ -7,5 +7,6 @@ Shakespearean language translator in VanillaJS
 
 ## Features
 - Translate from Engilsh to Shakespearean
+- Does not allow an empty API call if input is blank
 
 ![Screenshot](mark7.png?raw=true)
